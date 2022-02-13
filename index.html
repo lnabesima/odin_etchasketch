@@ -11,9 +11,20 @@
     <main class="flex">
       <div class="div-wrapper grid"></div>
 
-      <div class="refresh-board">
-        <p class="refresh-board__title">Refresh board</p>
-        <button class="refresh-board__button">Refresh</button>
+      <div class="controls">
+        <div class="refresh-board">
+          <p class="refresh-board__title">Refresh board</p>
+          <button class="refresh-board__button">Refresh</button>
+        </div>
+
+        <div class="input-side">
+          <form>
+            <label for="side"
+              >Enter how many squares the side of the board should have.</label
+            >
+            <input type="number" name="side" id="side" min="0" max="100" />
+          </form>
+        </div>
       </div>
     </main>
 
