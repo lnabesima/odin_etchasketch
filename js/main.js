@@ -1,4 +1,5 @@
 const mainDiv = document.querySelector('.div-wrapper');
+const refreshButton = document.querySelector('.refresh-board__button');
 
 // this function create the basic element of the board
 const createDiv = () => {
@@ -20,3 +21,14 @@ const basicBlocks = document.querySelectorAll('.div-wrapper__block');
 [...basicBlocks].forEach((block) => {
   block.addEventListener('mouseenter', () => block.classList.add('test'));
 });
+
+/* ---- Controls ---- */
+// remove the class from the hovered blocks
+const refreshControls = () => {
+  [...basicBlocks].forEach((block) => {
+    block.classList.remove('test');
+  });
+};
+
+// add the refresh function to the button
+refreshButton.addEventListener('click', () => refreshControls());
