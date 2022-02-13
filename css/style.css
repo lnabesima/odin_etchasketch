@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+.div-wrapper {
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
