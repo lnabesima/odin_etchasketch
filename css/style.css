@@ -17,6 +17,10 @@
   display: grid;
 }
 
+body {
+  padding: 1rem;
+}
+
 .div-wrapper {
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
@@ -26,6 +30,14 @@
 }
 .div-wrapper .test {
   background-color: black;
+}
+
+.refresh-board {
+  padding: 15px;
+}
+.refresh-board__button {
+  width: 80%;
+  height: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
