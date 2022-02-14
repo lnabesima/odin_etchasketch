@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+@mixin headings {
+  @for $i from 1 to 6 {
+    h#{$i} {
+      @content;
+    }
+
+  }
+}
+
 .flex {
   display: flex;
 }
@@ -15,8 +24,4 @@
 
 .grid {
   display: grid;
-}
-
-body {
-  padding: 1rem;
 }

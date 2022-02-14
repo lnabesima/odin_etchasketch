@@ -1,0 +1,9 @@
+body {
+  background-color: antiquewhite;
+  padding: 1rem;
+
+  @include headings {
+    font-family: 'Gideon Roman', cursive;
+    font-smooth: subpixel-antialiased;
+  }
+}

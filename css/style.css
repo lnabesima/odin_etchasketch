@@ -18,15 +18,39 @@
 }
 
 body {
+  background-color: antiquewhite;
   padding: 1rem;
+}
+body h1 {
+  font-family: "Gideon Roman", cursive;
+  font-smooth: subpixel-antialiased;
+}
+body h2 {
+  font-family: "Gideon Roman", cursive;
+  font-smooth: subpixel-antialiased;
+}
+body h3 {
+  font-family: "Gideon Roman", cursive;
+  font-smooth: subpixel-antialiased;
+}
+body h4 {
+  font-family: "Gideon Roman", cursive;
+  font-smooth: subpixel-antialiased;
+}
+body h5 {
+  font-family: "Gideon Roman", cursive;
+  font-smooth: subpixel-antialiased;
 }
 
 .div-wrapper {
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  width: 350px;
-  height: 350px;
-  padding: 15px;
+  width: 360px;
+  height: 360px;
+  padding: 20px;
+}
+.div-wrapper__block {
+  background-color: white;
 }
 .div-wrapper .test {
   background-color: black;
